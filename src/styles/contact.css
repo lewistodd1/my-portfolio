@@ -1,0 +1,33 @@
+.contact {
+  max-width: 573px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 1rem;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  color: white;
+  font-size: 1rem;
+  resize: none;
+}
+
+.contact-btn {
+  padding: 12px 20px;
+  background: #00e2a7;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #0f172a;
+  cursor: pointer;
+}

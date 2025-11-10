@@ -1,0 +1,48 @@
+.about {
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+  padding: 4rem 2rem;
+}
+
+.about-content {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.about-text {
+  flex: 2;
+  line-height: 1.7;
+}
+
+.about-box {
+  flex: 1;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+
+.about-box h3 {
+  margin-top: 0;
+}
+
+.about-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.about-box li {
+  margin: 0.5rem 0;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .about-content {
+    flex-direction: column;
+  }
+}
